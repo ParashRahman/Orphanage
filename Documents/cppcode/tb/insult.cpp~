@@ -1,0 +1,14 @@
+#include <iostream>
+#include <vector>
+
+class Insult {
+private:
+  const int RACIST = 0;
+  const int HOMOPHOBIC = 1;
+  const int SEXUAL = 2;
+  
+  vector<int> insult_types(3);
+
+public:
+
+}

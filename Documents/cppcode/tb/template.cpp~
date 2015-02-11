@@ -1,0 +1,13 @@
+#include <iostream>
+
+class Insult {
+private:
+  const int RACIST = 0;
+  const int HOMOPHOBIC = 1;
+  const int SEXUAL = 2;
+  
+  
+
+public:
+
+}
