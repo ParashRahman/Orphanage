@@ -1,0 +1,18 @@
+<!-- 
+
+function loadup(){
+    for( var i = 1; i <= 42; i++ ){
+	document.getElementById( i.toString() ).src="orphans/"+i+".png";
+
+    }
+}
+
+function hover( number ){
+    document.getElementById( number ).src="orphans/crying/"+number+"_c.png";
+}
+
+function out( number ){
+    document.getElementById( number ).src="orphans/"+number+".png";
+}
+
+//-->
