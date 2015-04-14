@@ -1,9 +1,11 @@
 #side { 
     width: 200px;
-    height: 300px;
+    height: 250px;
     padding: 20px;
     border-style:  solid;
     position: fixed;
+    background-color: #ffffff;
+    display: none;
 }
 
 #title {
@@ -15,6 +17,7 @@
 }
 
 #cart {
+	width: 100vw;
 	padding: 20px;
     border-style: solid;
 }
