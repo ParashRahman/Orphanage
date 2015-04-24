@@ -1,0 +1,23 @@
+#side { 
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    border-style:  solid;
+    position: fixed;
+    background-color: #ffffff;
+    display: none;
+}
+
+#title {
+	margin-left: 240px;
+}
+
+#babies {
+    margin-left: 240px;
+}
+
+#cart {
+	width: 100vw;
+	padding: 20px;
+    border-style: solid;
+}

@@ -1,9 +1,0 @@
-#side { 
-    width:200px;
-    height:300px;
-    border-style:solid;
-}
-
-#cart {
-    border-style:solid;
-}
