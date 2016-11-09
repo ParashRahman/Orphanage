@@ -1,0 +1,1 @@
+rename 's/([\d_c]+).png$/orphan_$1.png/' *.png
