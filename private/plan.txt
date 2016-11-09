@@ -1,0 +1,11 @@
+JS 
+
+global
+-> orphans view
+   -> select orphan
+   -> add delete from cart
+-> shopping cart
+   -> ids of orphans selected
+-> orphan
+   -> id attached
+   -> image attached (reflects id)
