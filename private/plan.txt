@@ -9,3 +9,5 @@ global
 -> orphan
    -> id attached
    -> image attached (reflects id)
+-> shopping cart view
+   -> 

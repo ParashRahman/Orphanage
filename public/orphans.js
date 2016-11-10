@@ -32,7 +32,7 @@ function createMouseOverListener(id) {
     }
 }
 
-function orphan(id) {
+function Orphan(id) {
     this.id = id;
 
     this.getOrphanId = function() {
@@ -52,14 +52,14 @@ function orphan(id) {
     };
 }
 
-function orphanContainer() {
+function OrphanContainer() {
     this.getOrphanContainer = function() {
 	var orphan_container = document.createElement("div");
 	orphan_container.className = "orphan_container";
 
 	var oindex;
 	for (oindex = 1; oindex <= 42; ++oindex) {
-	    var orphobj = new orphan(oindex);
+	    var orphobj = new Orphan(oindex);
 	    orphan_container.appendChild(orphobj.getOrphanBlock());
 	}
 
@@ -67,8 +67,3 @@ function orphanContainer() {
     };
 }
 
-
-(function() {
-    var container = new orphanContainer();
-    document.body.appendChild(container.getOrphanContainer());
-})();
