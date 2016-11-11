@@ -2,6 +2,25 @@
 
 const MAX_CAPACITY = 5;
 
+function ShoppingButtonController(viewId, shoppingCartViewId) {
+    this.cartShowing = false;
+    this.shoppingCartViewId = shoppingCartViewId;
+    
+    this.updateCartVisibility = function() {
+	var element = document.getElementById(this.shoppingCartViewId);
+	if (this.cartShowing) {
+	    element.style.display = 'block';
+	} else {
+	    element.style.display = 'none';
+	}
+    }
+
+    this.toggleCartVisibility() {
+	this.cartShowing = ! this.carShowing;
+	this.updateCartVisibility();
+    }
+}
+
 function ShoppingCartView(viewId) {
     this.viewId = viewId;
 

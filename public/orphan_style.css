@@ -2,3 +2,13 @@
     height: 200px;
     width: 200px;
 }
+
+#shoppingCartButton {
+    border-style: double;
+    border-color: black;
+}
+
+#shoppingCart {
+    border-style: double;
+    border-color: black;
+}

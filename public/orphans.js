@@ -48,6 +48,7 @@ function Orphan(id) {
 	block.style.backgroundImage = "url('" + apathetic_path_t.format(oID) + "')";
 	block.addEventListener("mouseover", createMouseOverListener(oID));
 	block.addEventListener("mouseout", createMouseOutListener(oID));
+	
 	return block;
     };
 }
