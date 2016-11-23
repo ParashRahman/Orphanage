@@ -3,6 +3,11 @@
     width: 200px;
 }
 
+.soldOrphan {
+    height: 100px;
+    width: 100px;
+}
+
 #shoppingCartButton {
     border-style: double;
     border-color: black;
@@ -11,4 +16,5 @@
 #shoppingCart {
     border-style: double;
     border-color: black;
+    display: none;
 }
